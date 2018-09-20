@@ -1,0 +1,19 @@
+{
+  "name": "azuregraphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^14.0.2",
+    "graphql-voyager": "^1.0.0-rc.25",
+    "swagger-to-graphql": "^1.4.0"
+  }
+}
